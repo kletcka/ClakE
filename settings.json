@@ -1,0 +1,8 @@
+{
+  "WINDOW_HEIGHT": 500,
+  "WINDOW_WIDTH": 500,
+  "BUTTON_SIDE": 10,
+  "SPEED_X": 1,
+  "SPEED_Y": 1,
+  "TITLE" : "ClakE"
+}
