@@ -5,13 +5,13 @@ from random import randint as rnd
 
 
 class App(tk.Tk):
-    def __init__(self, title, size_x, size_y, b_size, spped_x, speed_y):
+    def __init__(self, title, size_x, size_y, b_size, speed_x, speed_y):
         super().__init__()
         self.title(title)
         self.window_x = int(size_x)
         self.window_y = int(size_y)
         self.geometry(f'{self.window_x}x{self.window_y}')
-        self.vx = spped_x
+        self.vx = speed_x
         self.vy = speed_y
         self.w = int(b_size)
         self.h = (self.w)*6/10

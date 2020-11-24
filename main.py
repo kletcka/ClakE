@@ -14,8 +14,13 @@ SPEED_X = settings["SPEED_X"]
 SPEED_Y = settings["SPEED_Y"]
 TITLE = settings["TITLE"]
 
-app = objects.App(
+def main():
+  app = objects.App(
     TITLE, WINDOW_WIDTH, WINDOW_HEIGHT,
     BUTTON_SIDE, SPEED_X, SPEED_Y)
+  app.mainloop()
+
+
+
 if __name__ == "__main__":
-    app.mainloop()
+    main()
