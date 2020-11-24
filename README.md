@@ -11,32 +11,32 @@ Cliker Game
 - Пусть в жизни у вас все будет хорошо
   
 ## main.py   
-WINDOW_HEIGHT - int; Высота экрана        
-WINDOW_WIDTH - int; Ширина экрана      
-BUTTON_SIDE - int; Сторона кнопки (кнопка - квадратная)  
-SPEED_X - int; Скорость кнопки по X
-SPEED_Y - int; Скорость кнопки по Y
-TITLE  - str; Заголовок файла
-app - object; Окно
-settings - dict; Список настроек
-
-## objects.py    
-### Классы:    
-#### App(tkinter.Tk)     
-**Атрибуты:**     
-self.window_x* - int; Размер окна по Х
-self.window_y* - int; Размер окна по Y
-*self.vx* - int; Скорость кнопки по Х
-*self.vy* - int; Скорость кнопки по Y
-*self.w* - int; Ширина кнопки
-*self.h* - int; Высота кнопки
-*self.cliks* - int; Количество кликов
-*self.x* - int; Положение кнопки по Х
-*self.y* - int; Положение кнопки по Y
-*self.button* - object; Объект кнопки
-
-**Методы:**   
-start_action() - создание и запуск нового потока, в котором постоянно изменяется x/y; выполняется после первого клика.  
-run_action() - функция, увеличивающая x/y
-add() - функция, прибавляющая 1 к кликам  
+WINDOW_HEIGHT - int; Высота экрана          
+WINDOW_WIDTH - int; Ширина экрана        
+BUTTON_SIDE - int; Сторона кнопки (кнопка - квадратная)    
+SPEED_X - int; Скорость кнопки по X    
+SPEED_Y - int; Скорость кнопки по Y  
+TITLE  - str; Заголовок окна    
+app - object; Окно  
+settings - dict; Список настроек  
+   
+## objects.py      
+### Классы:     
+#### App(tkinter.Tk)      
+**Атрибуты:**      
+self.window_x* - int; Размер окна по Х  
+self.window_y* - int; Размер окна по Y  
+*self.vx* - int; Скорость кнопки по Х    
+*self.vy* - int; Скорость кнопки по Y    
+*self.w* - int; Ширина кнопки  
+*self.h* - int; Высота кнопки    
+*self.cliks* - int; Количество кликов   
+*self.x* - int; Положение кнопки по Х  
+*self.y* - int; Положение кнопки по Y   
+*self.button* - object; Объект кнопки    
+   
+**Методы:**        
+start_action() - создание и запуск нового потока, в котором постоянно изменяется x/y; выполняется после первого клика.    
+run_action() - функция, увеличивающая x/y    
+add() - функция, прибавляющая 1 к кликам    
      
